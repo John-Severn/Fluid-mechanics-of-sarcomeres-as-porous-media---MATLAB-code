@@ -4,4 +4,8 @@
 
 "Plot_grid_deformation" plots the deformation calculated by "Calculate_Darcy_grid_deformation" for a specified contraction.
 
-"Plot_comsol_heatmap" plots the example COMSOL data in a heatmap, reproducing Fig. 3B. "comsol_heatmap_data" must be loaded before running.
+"Plot_comsol_heatmap" plots COMSOL data in a heatmap, reproducing Fig. 3B. Some COMSOL data from the data folder must be loaded before running.
+
+"Compare_fixed_r_varying_z" compares the radial flux between the Darcy model and COMSOL data, requiring "bessel_zeros" and the appropriate COMSOL data to be loaded first. This code can reproduce Fig. 3C.
+
+"Compare_fixed_z_varying_r" compares the axial flux between the Darcy model and COMSOL data, requiring "bessel_zeros" and the appropriate COMSOL data to be loaded first. This code can reproduce Fig. 4.
